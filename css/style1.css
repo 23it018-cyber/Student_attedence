@@ -1,0 +1,114 @@
+body{
+    background-color: antiquewhite;
+}
+.login-box{
+    width:800px;
+    margin: 90px auto;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.login-left{
+    width: 20%;
+    background-color: antiquewhite;
+}
+.login-right{
+    width: 50%;
+    padding: 40px;
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.bar{
+    width: 220px;
+    background-color:lightcoral;
+    color: white;
+    height: 200px;
+    padding: 20px 20px;
+    position: fixed;
+}
+.bar h2{
+    margin-bottom: 30px;
+}
+.bar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.main{
+    margin: 240px;
+    padding: 30px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px
+}
+.card {
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.card-blue { 
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    padding: 20px 20px;
+    background: #2563eb; 
+}
+.card-green {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    padding: 20px 20px;
+     background: #16a34a; 
+    }
+.card-red { 
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    padding: 20px 20px;
+    background: #dc2626;
+ }
+.card-purple { 
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    padding: 20px 20px;
+    background: #7c3aed; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background:yellowgreen;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
